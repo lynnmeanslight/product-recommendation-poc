@@ -1,0 +1,8 @@
+fastapi
+pinecone-client
+torch
+numpy
+pandas
+scipy
+implicit
+tqdm
