@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import logo from "./assets/airgas_logo.svg"; // Assuming your logo is in the src folder and named logo.svg
 
 function App() {
-  const api_url = "http://3.26.65.90/api";
+  const api_url = "http://54.252.245.80/api";
   const [userId, setUserId] = useState("");
   const [recommendations, setRecommendations] = useState([]);
   const [pastPurchases, setPastPurchases] = useState([]);
@@ -119,6 +119,7 @@ function App() {
                         width: "25%",
                         borderBottom: "1px solid #379777",
                         padding: "8px",
+                        textAlign:"left",
                         backgroundColor: "#006072", // Add background color to header
                         color: "white", // Change text color to white for header
                         borderRight: "1px solid #379777",
@@ -146,6 +147,7 @@ function App() {
                         backgroundColor: "#006072", // Add background color to header
                         color: "white", // Change text color to white for header
                         borderRight: "1px solid #379777",
+                        textAlign:"right",
                       }}
                     >
                       Score
@@ -159,6 +161,7 @@ function App() {
                         style={{
                           borderBottom: "1px solid #379777",
                           padding: "8px",
+                          textAlign:"left",
                           borderRight: "1px solid #379777",
                         }}
                       >
@@ -179,6 +182,7 @@ function App() {
                           borderBottom: "1px solid #379777",
                           padding: "8px",
                           borderLeft: "1px solid #379777",
+                          textAlign:"right",
                         }}
                       >
                         {item.scores}
@@ -212,6 +216,7 @@ function App() {
                         width: "25%",
                         borderBottom: "1px solid #379777",
                         padding: "8px",
+                        textAlign:"left",
                         backgroundColor: "#006072", // Add background color to header
                         color: "white", // Change text color to white for header
                         borderRight: "1px solid #379777",
@@ -253,6 +258,7 @@ function App() {
                           borderBottom: "1px solid #379777",
                           padding: "8px",
                           borderRight: "1px solid #379777",
+                          textAlign:"left",
                         }}
                       >
                         {item.product_id}
